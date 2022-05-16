@@ -1,5 +1,63 @@
-nav{
-	/*width: 100vw;*/
-	/*margin-left: -13px;*/
-	/*overflow-x: hidden;*/
+h2{
+	font-weight: bold;
+}
+
+#img1{
+	transition: .6s;
+}
+
+.slides{	
+	width: 500%;
+}
+
+.slide{
+	width: 20%;	
+}
+
+.container_slides{
+	overflow-x: hidden;
+}
+
+.barra_labels{	
+	justify-content: center;
+
+}
+
+.slides img{
+	height: auto;
+	object-fit: cover;
+}
+
+.barra_labels label{
+	width: 60px;
+	height: 30px;
+	margin: 10px;
+	transition: .7s	;
+	cursor: pointer;
+}
+
+.barra_labels label:hover{
+	background-color: #fff;
+}
+
+input{
+	display: none;
+}
+
+
+
+#radio2:checked ~ #img1{
+	margin-left: -20%;
+}
+
+#radio3:checked ~ #img1{
+	margin-left: -40%;
+}
+
+#radio4:checked ~ #img1{
+	margin-left: -60%;
+}
+
+#radio5:checked ~ #img1{
+	margin-left: -80%;
 }

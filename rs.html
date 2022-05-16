@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
-	<title>Gamer Experience - com Bootstrap</title>
+	<title>Resident Evil - com Bootstrap</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
@@ -15,12 +15,35 @@
 
 
 		<div class="row ">
-			<div class="col-lg-6 mt-2">
-				<div class="bg-light pt-2 rounded pb-4 mb-2 texto_principal" id="slider">
+			<div class="col-lg-6  mt-2">
+				<div class="bg-light pt-2 rounded pb-4 mb-2 container_slides">
 
-					<h2 class="text-center mb-3"> Sobre os jogos digitais</h2>					
+					<h2 class="	text-center mb-3"> Sobre o Resident Evil</h2>					
 						
-					<img src="img/0.png" class="w-100">
+					<div class="d-flex slides  mb-10">
+
+						<input type="radio" name="escolha" id="radio1">
+						<input type="radio" name="escolha" id="radio2">
+						<input type="radio" name="escolha" id="radio3">
+						<input type="radio" name="escolha" id="radio4">
+						<input type="radio" name="escolha" id="radio5">
+
+						<div class="slide" id="img1"><a href="rs1.html"><img class="w-100"  title="Página do Resident 4" src="img/rs1.jpg" ></a></div>
+						<div class="slide"><a href="rs2.html"><img class="w-100" title="Página do Resident Evil 5" src="img/rs2-copia.png"></a></div>
+						<div class="slide"><a href="rs3.html"><img class="w-100" title="Página do Resident Evil 6" src="img/rs3-copia.png"></a></div>
+						<div class="slide"><a href="rs4.html"><img class="w-100" title="Página do Resident Evil 3"  src="img/rs4-copia.png"></a></div>
+						<div class="slide"><a href="rs5.html"><img class="w-100" title="Página do Resident Evil Revelations" src="img/rs5.jpg"></a></div>
+
+						
+					</div>
+
+					<div class="d-flex w-100 container-fluid barra_labels bg-dark">
+							<label for="radio1" class="border border-light rounded"></label>
+							<label for="radio2" class="border border-light rounded"></label>
+							<label for="radio3" class="border border-light rounded"></label>
+							<label for="radio4" class="border border-light rounded"></label>
+							<label for="radio5" class="border border-light rounded"></label>
+					</div>
 						
 					<p class="px-3 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -70,32 +93,35 @@
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					
+					<div class="container-fluid"><a href="index.html"><p class="py-1 bg-primary text-center text-light ">Retornar à página inicial</p></a></div>
+
+					<div class="container-fluid"><a href="capcom.html"><p class="py-1 bg-primary text-center text-light">Retornar à página Capcom</p></a></div>
 				</div>
 			</div>
 
-			<div class="col-lg-6 mt-2">
+			<div class="col-lg-6 mt-2 ">
 				<div class="row">
 					<div class="col-12 mb-3">
-						<div class="aside bg-light rounded pt-2 pb-1">
-							<h2 class="text-center mb-3">Sobre a nintendo</h2>
-							<a href="nintendo.html"><img title="Página da nintendo" id="aside1" src="imagens/nintendo.jpg" class="w-100 mx-auto"></a>
-							<p class="text-center mt-3">clique na imagem para conhecer a nintendo</p>
+						<div class="bg-light rounded pt-2 pb-1">
+							<h2 class=" text-center mb-3">Sobre o Megaman</h2>
+							<a href="megaman.html"><img title="Página do Megaman"src="img/megaman-copia.png" class="w-100 mx-auto"></a>
+							<p class="text-center mt-3">clique na imagem para conhecer o Megaman</p>
 						</div>
 					</div>
 
-					<div class="aside col-12 mb-3">
+					<div class="col-12 mb-3">
 						<div class="bg-light rounded pt-2 pb-1">
-							<h2 class="text-center mb-3">Sobre a capcom</h2>
-							<a href="capcom.html"><img title="Página da capcom" src="imagens/capcom-copia.png" class="w-100 mx-auto"></a>
-							<p class="text-center mt-3">clique na imagem para conhecer a capcom</p>
+							<h2 class=" text-center mb-3">Sobre o Resident Evil</h2>
+							<img src="img/residentEvil-copia.png" title="Página do Resident Evil" class="w-100 mx-auto">
+							<p class="text-center mt-3">clique na imagem para conhecer o Resident Evil</p>
 						</div>
 					</div>
 
-					<div class="aside col-12 mb-3">
+					<div class="col-12 mb-3">
 						<div class="bg-light rounded pt-2 pb-1">
-							<h2 class="text-center mb-3">Sobre a sega</h2>
-							<a href="sega.html"><img title="Página da sega" src="imagens/sega.jpg" class="w-100 mx-auto"></a>
-							<p class="text-center mt-3">clique na imagem para conhecer a sega</p>
+							<h2 class=" text-center mb-3">Sobre o Street Fighter</h2>
+							<a href="st.html"><img src="img/streetFighter-copia.png" title="Página do Street Fighter" class="w-100 mx-auto"></a>
+							<p class="text-center mt-3">clique na imagem para conhecer o Street Fighter</p>
 						</div>
 					</div>
 				</div>
